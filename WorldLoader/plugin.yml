@@ -1,4 +1,5 @@
 name: WorldLoader
 version: 5.0.0
+api: 2.0.0
 main: Loader
 author: SevenZero
