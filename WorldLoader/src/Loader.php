@@ -6,7 +6,7 @@ class Loader extends PluginBase{
     foreach(glob($this->getServer()->getDataPath(). "worlds/*") as $w){
       if(is_dir($w)){
         $wrld = basename($w);
-        $this->getServer()->getLogger()->info(/pocketmine/utils/TextFormat::BLUE . "Loading " . /pocketmine/utils/TextFormat::YELLOW . $wrld);
+        $this->getServer()->getLogger()->info(\pocketmine\utils\TextFormat::BLUE . "Loading " . \pocketmine\utils\TextFormat::YELLOW . $wrld);
       }
     }
   }
