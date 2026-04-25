@@ -1,0 +1,14 @@
+--- 
+build-by-default: true
+branches:
+- main
+
+projects:
+  WorldLoader:
+    path: WorldLoader/
+    icon: icon.png
+    release:
+      draft: false
+      prerelease: false
+
+...
